@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(201, 200, 198);
+  
+}
+
+div#intercafe-cabecalho {
+        max-width: 100%;
+        width: 1100px;
+        margin: 40px auto 0px auto;
+        padding: 10px;
+        box-shadow: 0px 0px 10px #8681eefa;
+        background: url(/imagens/fundoBody.png);
+}
+aside#intercafe-asise p{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+div#form-cabecalho{
+    text-align: justify;
+}
+nav#rodape {
+    display: block;
+}
+nav#rodape ul{
+    list-style: none;
+}
+nav#rodape li {
+    display: inline-block;
+}
+div#rodape{
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 10px;
+    border: rgb(0, 0, 0);
+}
