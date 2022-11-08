@@ -1,15 +1,26 @@
 body {
-    background-color: rgb(201, 200, 198);
-  
+    background: rgba(0, 6, 47, 0.746);    
 }
-
+body h1{
+    color: rgb(170, 141, 182);
+    text-size: 100px;
+}
+body p{
+    color: white;
+}
 div#intercafe-cabecalho {
         max-width: 100%;
         width: 1100px;
         margin: 40px auto 0px auto;
         padding: 10px;
         box-shadow: 0px 0px 10px #8681eefa;
-        background: url(/imagens/fundoBody.png);
+}
+div#intercafe-cabecalho h1{
+    text-align: center;
+}
+.boxs{
+    text-align: justify;
+    box-shadow: 0px 0px 10px #8681eefa;
 }
 aside#intercafe-asise p{
     max-width: 100%;
@@ -19,6 +30,7 @@ aside#intercafe-asise p{
     box-shadow: 1px 1px 1px 1px black;
 }
 div#form-cabecalho{
+    border: 1px black solid;
     text-align: justify;
 }
 nav#rodape {
@@ -37,4 +49,8 @@ div#rodape{
     left: 0px;
     right: 10px;
     border: rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+    color: rgb(170, 212, 0);
 }
