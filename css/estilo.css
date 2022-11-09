@@ -18,6 +18,9 @@ div#intercafe-cabecalho {
 div#intercafe-cabecalho h1{
     text-align: center;
 }
+div.introHeader{
+    display: inline;
+}
 .boxs{
     text-align: justify;
     box-shadow: 0px 0px 10px #8681eefa;
