@@ -1,5 +1,5 @@
 body {
-    background: url('./estilo.css');
+    background: url('/imagens/fundo.png');
     background-size: cover;
 }
 body h1{
