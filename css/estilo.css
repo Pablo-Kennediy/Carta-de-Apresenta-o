@@ -1,12 +1,19 @@
 body {
-    background: black;    
+    background: url(/imagens/fundo.png);
+    background-size: cover;
 }
 body h1{
-    color: rgb(170, 141, 182);
-    text-size: 100px;
+    font-size: 50px;
+    color: rgb(0, 26, 255);
+}
+body h2{
+    font-size: 40px;
+    color: rgb(0, 26, 255);
 }
 body p{
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(154, 143, 0);
 }
 figure img#lunar{
     display: block;
@@ -28,8 +35,10 @@ div.introHeader{
     display: inline;   
 }
 .boxs{
+    border: 2px;
     text-align: center;
     box-shadow: 0px 0px 10px #8681eefa;
+    background-color: rgba(33, 0, 178, 0.415);
 }
 aside#intercafe-asise p{
     max-width: 100%;
@@ -66,4 +75,5 @@ div#rodape{
 footer{
     text-align: center;
     color: rgb(170, 212, 0);
+    border-top: 3px solid rgb(255, 255, 255);
 }
