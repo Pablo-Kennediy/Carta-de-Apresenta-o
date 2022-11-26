@@ -3,9 +3,28 @@ body {
     background: url(../imagens/fundo.png);
     background-size: cover;
 }
-body h1{
+section#header h1{
     font-size: 50px;
     color: rgb(0, 26, 255);
+}
+section#primeira{
+    font-size: 50px;
+    color: rgb(0, 26, 255);
+}
+section#intercafe-cabecalho {
+    color: rgb(0, 26, 255);
+    max-width: 100%;
+    width: 1100px;
+    margin: 40px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #8681eefa;
+}
+section#intercafe-cabecalho h1{
+    font-size: 50px;
+    text-align: center;
+}
+section#header h1{
+    text-align: center;
 }
 body h2{
     font-size: 40px;
@@ -22,24 +41,12 @@ figure img#lunar{
     left: 1000px;
     width: 100px;
 }
-div#intercafe-cabecalho {
-        max-width: 100%;
-        width: 1100px;
-        margin: 40px auto 0px auto;
-        padding: 10px;
-        box-shadow: 0px 0px 10px #8681eefa;
-}
-div#intercafe-cabecalho h1{
-    text-align: center;
-}
-div.introHeader{
-    display: inline;   
-}
 .boxs{
     border: 2px;
-    text-align: center;
-    box-shadow: 0px 0px 10px #8681eefa;
-    background-color: rgba(33, 0, 178, 0.415);
+    margin: 10px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px #6483fffa;
+    background-color: rgba(4, 21, 175, 0.611);
 }
 aside#intercafe-asise p{
     max-width: 100%;
