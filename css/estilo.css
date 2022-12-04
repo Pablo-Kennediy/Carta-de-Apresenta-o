@@ -3,29 +3,6 @@ body {
     background: url(../imagens/fundo.png);
     background-size: cover;
 }
-section#header h1{
-    font-size: 50px;
-    color: rgb(0, 26, 255);
-}
-section#primeira{
-    font-size: 50px;
-    color: rgb(0, 26, 255);
-}
-section#intercafe-cabecalho {
-    color: rgb(0, 26, 255);
-    max-width: 100%;
-    width: 1100px;
-    margin: 40px auto 0px auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px #8681eefa;
-}
-section#intercafe-cabecalho h1{
-    font-size: 50px;
-    text-align: center;
-}
-section#header h1{
-    text-align: center;
-}
 body h2{
     font-size: 40px;
     color: rgb(0, 26, 255);
@@ -34,6 +11,43 @@ body p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: rgb(154, 143, 0);
+}
+section#header h1{
+    font-size: 50px;
+    background: #7a0198ae;
+    background: -webkit-linear-gradient(bottom right, #7a0198a7, #243189a4);
+    background: -moz-linear-gradient(bottom right, #7a0198aa, #2431899f);
+    background: linear-gradient(to top left, #7a01989a, #24318994);
+}
+section#primeira{
+    border-radius: 15px;
+    margin: auto;
+    max-width: 800px;
+    font-size: 50px;
+    color: rgb(0, 26, 255);
+    box-shadow: 0px 0px 10px #8681eefa;
+}
+section#intercafe-cabecalho {
+    color: rgb(0, 26, 255);
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #8681eefa;
+    border-radius: 15px;
+}
+.intercafe-cabecalho h2{
+    text-align: center;
+    background: #7a0198ae;
+    background: -webkit-linear-gradient(bottom right, #7a0198a7, #243189a4);
+    background: -moz-linear-gradient(bottom right, #7a0198aa, #2431899f);
+    background: linear-gradient(to top left, #7a01989a, #24318994);
+}
+section#intercafe-cabecalho h1{
+    font-size: 50px;
+    text-align: center;
+}
+section#header h1{
+    text-align: center;
 }
 figure img#lunar{
     display: block;
@@ -44,9 +58,15 @@ figure img#lunar{
 .boxs{
     border: 2px;
     margin: 10px;
-    text-align: justify;
+    text-align: center;
     box-shadow: 0px 0px 10px #6483fffa;
     background-color: rgba(4, 21, 175, 0.611);
+}
+aside#intercafe-asise{
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #6483fffa;
 }
 aside#intercafe-asise p{
     max-width: 100%;
