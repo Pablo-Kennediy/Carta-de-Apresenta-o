@@ -1,53 +1,32 @@
 @charset "UTF-8";
-body {
-    background: url(../imagens/fundo.png);
-    background-size: cover;
-}
 body h2{
     font-size: 40px;
     color: rgb(0, 26, 255);
-}
+}   
 body p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: rgb(154, 143, 0);
 }
-section#header h1{
-    font-size: 50px;
-    background: #7a0198ae;
-    background: -webkit-linear-gradient(bottom right, #7a0198a7, #243189a4);
-    background: -moz-linear-gradient(bottom right, #7a0198aa, #2431899f);
-    background: linear-gradient(to top left, #7a01989a, #24318994);
+div.interface{
+    margin: 60px;
 }
-section#primeira{
-    border-radius: 15px;
-    margin: auto;
-    max-width: 800px;
+section{
     font-size: 50px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
     color: rgb(0, 26, 255);
     box-shadow: 0px 0px 10px #8681eefa;
+    text-align: justify;
 }
-section#intercafe-cabecalho {
-    color: rgb(0, 26, 255);
-    max-width: 800px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px #8681eefa;
-    border-radius: 15px;
-}
-.intercafe-cabecalho h2{
+div.interface h1{
     text-align: center;
     background: #7a0198ae;
     background: -webkit-linear-gradient(bottom right, #7a0198a7, #243189a4);
     background: -moz-linear-gradient(bottom right, #7a0198aa, #2431899f);
     background: linear-gradient(to top left, #7a01989a, #24318994);
-}
-section#intercafe-cabecalho h1{
-    font-size: 50px;
-    text-align: center;
-}
-section#header h1{
-    text-align: center;
 }
 figure img#lunar{
     display: block;

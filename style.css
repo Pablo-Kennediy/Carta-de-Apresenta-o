@@ -1,0 +1,43 @@
+body{
+    background: url(./imagens/pkLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+div.interface{
+    border: 3px white solid;
+    margin-top: 500px;
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+}
+div.visor{
+    width: 50%;
+}
+div.cabecalho{
+    padding: 20px;
+}
+div.formulario{
+    padding: 20px;
+}
+div.forSectionOne{
+    border: 5px solid white;
+    margin: auto;
+}
+div.cabecalho section{
+    margin: 20px;
+}
+div.infoFormulario{
+    border: 5px solid white;
+}
+div.forSectionTwo{
+    width: 35%;
+    padding: 20px;
+    margin: auto;
+}
+div.forSectionTwo section{
+    margin: auto;
+}
+fieldset{
+    margin: auto;
+}
