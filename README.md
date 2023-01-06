@@ -4,4 +4,4 @@ Eu desenvolvi essa página com o intuito de expôr algumas habilidades e qualida
 
 Lá não guarda nenhuma informação mas trás muita informação em forma de texto.
 
-![Assinatura](https://user-images.githubusercontent.com/98966014/202895623-10e47c34-a8cb-4204-84ff-da275d64760d.png)
+![Logo](https://user-images.githubusercontent.com/98966014/211113703-9121dd65-14d2-4cea-957f-54b2d6b84763.png)
